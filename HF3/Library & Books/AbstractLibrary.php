@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class AbstractLibrary
+ * class AbstractLibrary
  */
 abstract class AbstractLibrary
 {

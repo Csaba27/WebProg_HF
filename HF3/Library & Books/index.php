@@ -1,7 +1,13 @@
 <?php
 
-require_once "Book.php";
-require_once "Library.php";
+spl_autoload_register(function ($class) {
+    $file = $class . '.php';
+    if (file_exists($file)) {
+        include $file;
+    } else {
+        throw new Exception("Class $class not found");
+    }
+});
 
 $library = new Library();
 $author = $library->addAuthor('Jack London');

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * class Cart
+ */
 class Cart
 {
     /**

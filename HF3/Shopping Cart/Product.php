@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * class Product
+ */
 class Product
 {
     /**

@@ -1,7 +1,8 @@
 <?php
-require_once "AbstractLibrary.php";
-require_once "Author.php";
 
+/**
+ * class Library
+ */
 class Library extends AbstractLibrary
 {
     /**
